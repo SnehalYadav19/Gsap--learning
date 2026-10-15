@@ -11,7 +11,7 @@ html,body{
     width: 100%;
 }
 
-#page1{
+/* #page1{
     height: 100%;
     width: 100%;
     background-color: lightblue;
@@ -59,4 +59,34 @@ h1{
     font-size: 60px;
     position: relative;
     background-color: yellowgreen;
+} */
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    padding: 30px 12px;
+
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#page2 h1{
+    font-size: 35vw;
+    
+    text-transform: uppercase;
+}
+
+body{
+    overflow-x:hidden;
 }
