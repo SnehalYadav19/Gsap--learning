@@ -1,0 +1,1 @@
+var initialPath =`M 10 80 Q 250 10 490 80`
