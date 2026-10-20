@@ -10,7 +10,9 @@ body {
     height: 100%;
     width: 100%;
 }
-
+body{
+    overflow-x: hidden;
+}
 
 #main {
     height: 100%;
@@ -36,6 +38,7 @@ body {
     font-size: 30px;
     font-weight: 700;
     font-family: sans-serif;
+    cursor: pointer;
 
 }
 
@@ -45,7 +48,7 @@ body {
     position: absolute;
     background-color: #ffffff41;
     top: 0;
-    right: 0;
+    right: -40%;
     color: black;
     font-family: sans-serif;
     /* font-size: 20px; */
@@ -68,4 +71,5 @@ margin-bottom: 5px;
     border-radius: 50%;
     color: black;
     font-weight: 200;
+    cursor: pointer;
 }
