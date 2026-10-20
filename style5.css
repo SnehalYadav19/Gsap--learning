@@ -30,6 +30,8 @@ body {
 
 }
 
+
+
 #nav i {
     font-size: 30px;
     font-weight: 700;
@@ -56,4 +58,14 @@ body {
     font-size: 30px;
 font-weight: 500;
 margin-bottom: 5px;
+}
+
+#full i{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    font-weight: 200;
 }
