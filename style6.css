@@ -16,5 +16,5 @@ h1{
     font-size: 100px;
     font-style: italic;
     text-decoration: double;
-    text-decoration:dashed;
+    text-shadow: #111;
 }
