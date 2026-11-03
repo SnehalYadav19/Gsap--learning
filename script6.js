@@ -1,3 +1,7 @@
-var h1 = document.querySelector("h1")
+var h1Text = document.querySelector("h1").textContent
 
-console.log(h1)
+var splittedText = h1Text.split("")
+
+splittedText.forEach(function(){
+    console.log("Hello")
+})
