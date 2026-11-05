@@ -5,5 +5,5 @@ var splittedText = h1Text.split("")
 splittedText.forEach(function(){
     console.log("Hello")
 })
-errolr code
+erroR CODE
 // console.log(splittedText)
