@@ -6,4 +6,5 @@ splittedText.forEach(function(){
     console.log("Hello")
 })
 erroR CODE
+Error Code Starting new Gsap
 // console.log(splittedText)
