@@ -5,6 +5,9 @@ var splittedText = h1Text.split("")
 splittedText.forEach(function(){
     console.log("Hello")
 })
-erroR CODE
-Error Code Starting new Gsap
-// console.log(splittedText)
+var h2Text = document.querySelector("h2").textContent
+
+var splittedText = h2Text.split("")
+
+
+console.log(splittedText)
