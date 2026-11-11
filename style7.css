@@ -25,7 +25,27 @@ body{
      display: flex;
     padding: 3vw 0; 
     overflow: hidden;
+    
+  /* Mask creates a fade from transparent to black (visible) to transparent */
+  -webkit-mask-image: linear-gradient(
+    90deg, 
+    transparent 0%, 
+    black 10%, 
+    black 90%, 
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    90deg, 
+    transparent 0%, 
+    black 10%, 
+    black 90%, 
+    transparent 100%
+  );
+  overflow: hidden;
 }
+
+
+
 
 .marque{
     flex-shrink: 0;
@@ -40,3 +60,4 @@ body{
 .marque img {
 height: 4vw;
 }
+
