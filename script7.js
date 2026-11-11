@@ -7,3 +7,11 @@ window.addEventListener("wheel",function(dets ){
         console.log("Rreverse Scrolling")
     }
 })
+
+gsap.to(".marque",{
+    transform:'translateX(-100%)',
+    ease:"none",
+    repeat:-1,
+
+    duration:2
+})
