@@ -61,3 +61,7 @@ body{
 height: 4vw;
 }
 
+h1{
+    font-variation-settings: calc();
+}
+
