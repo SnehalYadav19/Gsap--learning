@@ -65,6 +65,10 @@ h1{
     font-variation-settings: calc();
     text-align: center;
     text-decoration: dotted;
-    display: inline;
+    display: none;
+
+}
+h4{
+    font: 100;
 }
 
